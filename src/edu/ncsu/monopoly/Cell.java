@@ -3,6 +3,7 @@ package edu.ncsu.monopoly;
 public abstract class Cell {
 	private String name;
 	protected Player propietary;
+	private boolean available = true;
 
 	public String getName() {
 		return name;
