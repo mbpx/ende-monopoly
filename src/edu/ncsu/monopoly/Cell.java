@@ -1,7 +1,6 @@
 package edu.ncsu.monopoly;
 
 public abstract class Cell {
-	private boolean available = true;
 	private String name;
 	protected Player propietary;
 
