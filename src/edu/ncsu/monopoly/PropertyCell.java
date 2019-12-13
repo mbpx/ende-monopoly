@@ -24,14 +24,14 @@ public class PropertyCell extends Cell {
 
 	public int getRent() {
 		int rentToCharge = rent;
-		rentToCharge = monopolyGroup(rentToCharge);
+		rentToCharge = calcMonopoliesRent(rentToCharge);
 		if(numHouses > 0) {
 			rentToCharge = rent * (numHouses + 1);
 		}
 		return rentToCharge;
 	}
 
-	private int monopolyGroup (int rentToCharge)
+	private int calcMonopoliesRent (int rentToCharge)
 	{
 		String [] monopolies = propietary.getMonopolies();
 		for(int i = 0; i < monopolies.length; i++) {
