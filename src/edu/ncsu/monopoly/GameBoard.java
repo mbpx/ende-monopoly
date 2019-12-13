@@ -58,7 +58,7 @@ public class GameBoard {
 		return cells.size();
 	}
 	
-	public PropertyCell[] getPropertiesInMonopoly(String color, boolean visibilitty) {
+	public PropertyCell[] getPropertiesInMonopoly(String color, boolean visibility) {
 		PropertyCell[] monopolyCells = 
 			new PropertyCell[(int)getPropertyNumberForColor(color)];
 		int counter = 0;
