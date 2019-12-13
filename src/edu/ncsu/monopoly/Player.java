@@ -196,7 +196,7 @@ public class Player {
 	
 	public void purchaseHouse(String selectedMonopoly, int houses) {
 		GameBoard gb = GameMaster.instance().getGameBoard();
-		PropertyCell[] cells = gb.getPropertiesInMonopoly(selectedMonopoly);
+		PropertyCell[] cells = gb.getPropertiesInMonopoly(selectedMonopoly, true);
 		if((money >= (cells.length * (cells[0].getHousePrice() * houses)))) {
 			for(int i = 0; i < cells.length; i++) {
 				int newNumber = cells[i].getNumHouses() + houses;
