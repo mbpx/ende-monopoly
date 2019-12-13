@@ -6,4 +6,4 @@ Hola, Carlos!
 Universidad del País Vasco.
 * La práctica fue originalmente creada para la facultad de _Ciencias Computacionales_
 de la Universidad de Virginia (<https://virginia.edu>), EE.UU.
-* Un saludo!
+* Un saludo y buen día!
